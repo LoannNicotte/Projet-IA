@@ -7,8 +7,8 @@ import time
 # Avec 16Go VRAM, on utilise le 14 Milliards de paramètres
 MODEL = "qwen2.5:14b" 
 
-INPUT_FILE = "projet/Droit/tous_les_arrets.jsonl"
-OUTPUT_FILE = "projet/Droit/dataset_resultats_ia_3.jsonl"
+INPUT_FILE = "tous_les_arrets.jsonl"
+OUTPUT_FILE = "dataset_resultats_ia.jsonl"
 
 # Prompt un peu plus "intello" car le modèle peut comprendre des nuances
 SYSTEM_PROMPT = """
